@@ -50,7 +50,7 @@ module.exports = {
       host: "127.0.0.1",     // Localhost (default: none)
       port: 9545,            // Standard Ethereum port (default: none)
       network_id: "*",       // Any network (default: none)
-      provider: () => new HDWallet("cycle interest magnet kick giant rent brain scale satisfy indicate actor harbor", `https://rinkeby.infura.io/${infuraKey}`),
+      provider: () => new HDWallet("*****", `https://rinkeby.infura.io/${infuraKey}`),
     },
 
     // Another network with more advanced options...
@@ -68,7 +68,7 @@ module.exports = {
     rinkeby: {
       host: "127.0.0.1",
       port: 9545,
-      provider: () => new HDWallet("cycle interest magnet kick giant rent brain scale satisfy indicate actor harbor", `https://rinkeby.infura.io/${infuraKey}`),
+      provider: () => new HDWallet("*****", `https://rinkeby.infura.io/${infuraKey}`),
       network_id: 4,       // Ropsten's id
       gas: 5500000,        // Ropsten has a lower block limit than mainnet
       confirmations: 2,    // # of confs to wait between deployments. (default: 0)
